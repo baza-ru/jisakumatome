@@ -1,5 +1,5 @@
 {
-"name" : "ここに難易度表の名前",
-"symbol" : "ここにシンボル",
-"data_url" : "ここにJSONのURL"
+"name" : "休憩難易度表",
+"symbol" : "QK",
+"data_url" : "https://script.google.com/macros/s/AKfycbz-7e93jxHcbYJ5LP7WN4LHg-K1D-mefXNnKwiHzs-OXY7HfvJRGgJnHvGGqG_7MuzJVg/exec"
 }
