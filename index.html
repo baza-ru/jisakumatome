@@ -90,6 +90,21 @@
                     str.appendTo(obj);
                     count++;
 
+                     // 差分 拝借テスト
+                    if (info[i].url_diff != "" && info[i].url_diff != null) {
+                        if (info[i].name_diff != "" && info[i].name_diff != null) {
+                            $("<td width='15%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
+                        } else {
+                            $("<td width='15%'><a href='" + info[i].url_diff + "'>" + info[i].url_diff + "</a></td>").appendTo(str);
+                        }
+                    } else {
+                        if (info[i].name_diff != "" && info[i].name_diff != null) {
+                            $("<td width='15%'>" + info[i].name_diff + "</td>").appendTo(str);
+                        } else {
+                            $("<td width='15%'></td>").appendTo(str);
+                        }
+                    }
+
                 }
                 $("</tbody>").appendTo(obj);
 
